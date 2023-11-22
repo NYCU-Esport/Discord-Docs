@@ -27,7 +27,7 @@
       - 擁有```幹部```的所有權限
       - 另外有Discord以及機器人管理的權限
   - 非電競社的人類帳號
-    - ```待定(請自我介紹```
+    - ```待定(請自我介紹)```
     - ```Guest```
   - 機器人
     - ```NYCU_Esport_Bot```
@@ -41,13 +41,14 @@
   - ```2023-梅竹校內選拔賽```
 
 ## 入群流程
-1. 點選Discord永久連結
+1. 點選[Discord永久邀請連結](https://discord.com/invite/uX3PqeyWE2)
   - ```https://discord.com/invite/uX3PqeyWE2```
 2. Discord的"培訓"功能設定詢問兩個問題
   1. 選擇您想收聽的遊戲種類
-     - 選項是當前所有遊戲身分組 [說明](https://github.com/NYCU-Esport/Discord-Docs/blob/main/Architecture.md#1-%E5%88%86%E9%A1%9E%E8%BA%AB%E5%88%86%E7%B5%84)
+     - 選項是當前所有[遊戲身分組](https://github.com/NYCU-Esport/Discord-Docs/blob/main/Architecture.md#1-%E5%88%86%E9%A1%9E%E8%BA%AB%E5%88%86%E7%B5%84)
      - 選哪個就會自動賦予那個身分組
   3. 您是否是交大電競社社員?
+     - 用[角色身分組](https://github.com/NYCU-Esport/Discord-Docs/blob/main/Architecture.md#2-%E8%A7%92%E8%89%B2%E8%BA%AB%E5%88%86%E7%B5%84)來初步分類社員以及非社員
      - 是
        1. 賦予```待定(請自我介紹```身分組
        2. 管理員審核以交社費後更改暱稱並修身分組成```社員```or ```幹部```
@@ -187,9 +188,9 @@
       - ```社員```: n
       - ```綜合遊戲```: n
       - ```社員``` + ```綜合遊戲```: r+w
-- 2023-梅竹校內選拔賽
+-  比賽頻道 (如: 2023-梅竹校內選拔賽)
     - 權限
       - ```所有人```: n
       - ```Guset```: n
       - ```社員```: r
-      - ```2023-梅竹校內選拔賽```: r+w
+      - [比賽身分組](https://github.com/NYCU-Esport/Discord-Docs/blob/main/Architecture.md#3-%E6%AF%94%E8%B3%BD%E8%BA%AB%E5%88%86%E7%B5%84) (如: ```2023-梅竹校內選拔賽```): r+w
